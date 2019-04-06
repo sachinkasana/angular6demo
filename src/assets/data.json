@@ -1,0 +1,59 @@
+{
+    "hotels":[{
+        "id":1,
+        "name":"Radiant hotel",
+        "Addrees":"Delhi",
+        "Available_Rooms":10,
+        "isRoomAvailable":true,
+        "Rooms":[
+            {
+                "roomNo":100,
+                "Type":"AC",
+                "Charges_Per_Day":2000,
+                "date_Of_Booking":"20/04/2019"
+            },
+            {
+                "roomNo":101,
+                "Type":"AC",
+                "Charges_Per_Day":2000,
+                "date_Of_Booking":"21/04/2019"
+            },
+            {
+                "roomNo":1002,
+                "Type":"AC-Super Delux",
+                "Charges_Per_Day":2500,
+                "date_Of_Booking":""
+            }
+        ]
+    },
+    {
+        "id":1,
+        "name":"Taj hotel",
+        "Addrees":"Mumbai",
+        "Available_Rooms":50,
+        "isRoomAvailable":true,
+        "Rooms":[
+            {
+                "roomNo":100,
+                "Type":"AC",
+                "Charges_Per_Day":5000,
+                "date_Of_Booking":"20/04/2019"
+            },
+            {
+                "roomNo":101,
+                "Type":"AC",
+                "Charges_Per_Day":5000,
+                "date_Of_Booking":"25/04/2019"
+            },
+            {
+                "roomNo":1002,
+                "Type":"AC-Super Delux",
+                "Charges_Per_Day":5500,
+                "date_Of_Booking":""
+            }
+        ]
+    }
+
+
+]
+}
