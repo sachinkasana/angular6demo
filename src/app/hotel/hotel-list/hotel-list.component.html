@@ -1,4 +1,17 @@
 
-<div *ngFor="let hotel of hotelsList.hotels">
-{{hotel.name}}
+
+<div class="row" *ngFor="let hotel of hotelsList.hotels">
+  <div class="column">
+    <div class="card">
+      <img src="img1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>{{hotel.name}}</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
 </div>
