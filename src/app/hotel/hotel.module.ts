@@ -7,8 +7,10 @@ import {HotelComponent} from './hotel.component';
 import { HotelRoutingModule } from './hotel.routing';
 import { HttpClientModule } from '@angular/common/http';
 import {HotelService} from '.././services/hotel-service';
+import {FilterPipe} from '.././pipe/hotel-pipe';
+
 @NgModule({
-  declarations: [HotelListComponent],
+  declarations: [HotelListComponent,FilterPipe],
   imports: [
     CommonModule,
     HotelRoutingModule,

@@ -15,7 +15,7 @@ export class HotelListComponent implements OnInit {
     hotelName: '',
     location: ''
   }
-
+  filter;
   ngOnInit() {
     this._hotelService.getHotelsList().subscribe(res => {
       this.hotelsList = res;
@@ -26,11 +26,12 @@ export class HotelListComponent implements OnInit {
 
   searchHotels() {
     console.log('search',this.hotelFilter);
-    this.hotelsList= this.hotelsList.filter((hotel)=>{
-      debugger
-     return hotel.name.toLowerCase()==this.hotelFilter.hotelName.toLowerCase()
-            || this.hotelFilter.location.toLowerCase()==hotel.Addrees.toLowerCase();
-    })
+  this.filter=this.hotelFilter;
+    // this.hotelsList= this.hotelsList.filter((hotel)=>{
+    //   debugger
+    //  return hotel.name.toLowerCase()==this.hotelFilter.hotelName.toLowerCase()
+    //         || this.hotelFilter.location.toLowerCase()==hotel.Addrees.toLowerCase();
+    // })
   }
 
 }

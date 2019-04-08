@@ -15,7 +15,7 @@
   </nav>
 
 <div class="row" *ngIf="hotelsList.length>0; else noResult">
-  <div class="column" *ngFor="let hotel of hotelsList">
+  <div class="column" *ngFor="let hotel of hotelsList | filter: hotelFilter.hotelName:hotelFilter.location">
     <div class="card">
       <img src="../../../assets//images/hotel1.jpeg" alt="Hotel" style="width:100%">
       <div class="container">

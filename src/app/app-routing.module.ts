@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {path: 'hotels', loadChildren: './hotel/hotel.module#HotelModule'},
+  {path:'**',redirectTo:'hotels'}
 ];
 
 @NgModule({
