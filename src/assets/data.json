@@ -1,59 +1,63 @@
-{
-    "hotels":[{
+[{
         "id":1,
         "name":"Radiant hotel",
         "Addrees":"Delhi",
         "Available_Rooms":10,
         "isRoomAvailable":true,
-        "Rooms":[
-            {
-                "roomNo":100,
-                "Type":"AC",
-                "Charges_Per_Day":2000,
-                "date_Of_Booking":"20/04/2019"
-            },
-            {
-                "roomNo":101,
-                "Type":"AC",
-                "Charges_Per_Day":2000,
-                "date_Of_Booking":"21/04/2019"
-            },
-            {
-                "roomNo":1002,
-                "Type":"AC-Super Delux",
-                "Charges_Per_Day":2500,
-                "date_Of_Booking":""
-            }
-        ]
+        "RoomTypes":"Full-AC",
+        "Charges_Per_Day":2000,
+        "date_Of_Booking":"20/04/2019"
     },
     {
-        "id":1,
+        "id":2,
         "name":"Taj hotel",
         "Addrees":"Mumbai",
         "Available_Rooms":50,
         "isRoomAvailable":true,
-        "Rooms":[
-            {
-                "roomNo":100,
-                "Type":"AC",
-                "Charges_Per_Day":5000,
-                "date_Of_Booking":"20/04/2019"
-            },
-            {
-                "roomNo":101,
-                "Type":"AC",
-                "Charges_Per_Day":5000,
-                "date_Of_Booking":"25/04/2019"
-            },
-            {
-                "roomNo":1002,
-                "Type":"AC-Super Delux",
-                "Charges_Per_Day":5500,
-                "date_Of_Booking":""
-            }
-        ]
+        "RoomTypes":"AC",
+        "date_Of_Booking":"25/04/2019",
+        "Charges_Per_Day":5000
+    },
+    {
+        "id":3,
+        "name":"Red Apple",
+        "Addrees":"Gurgaon",
+        "Available_Rooms":20,
+        "isRoomAvailable":true,
+        "RoomTypes":"Super-Delux",
+        "Charges_Per_Day":2000,
+        "date_Of_Booking":"25/04/2019"
+    },
+    {
+        "id":4,
+        "name":"The Orchid",
+        "Addrees":"Gurgaon",
+        "Available_Rooms":20,
+        "isRoomAvailable":true,
+        "date_Of_Booking":"20/04/2019",
+        "RoomTypes":"Super-Delux",
+        "Charges_Per_Day":2000
+    },
+    {
+        "id":5,
+        "name":"Grand Hotel",
+        "Addrees":"Gurgaon",
+        "Available_Rooms":20,
+        "isRoomAvailable":true,
+        "date_Of_Booking":"20/04/2019",
+        "RoomTypes":"Super-Delux",
+        "Charges_Per_Day":2000
+    },
+    {
+        "id":6,
+        "name":"Radisson Hotels & Resorts",
+        "Addrees":"Gurgaon",
+        "Available_Rooms":200,
+        "isRoomAvailable":true,
+        "date_Of_Booking":"20/04/2019",
+        "RoomTypes":"Super-Delux",
+        "Charges_Per_Day":7000
     }
 
 
 ]
-}

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { HotelListComponent } from './hotel-list/hotel-list.component';
 import { HotelDetailComponent } from './hotel-detail/hotel-detail.component';
 import {HotelComponent} from './hotel.component';
@@ -11,7 +12,8 @@ import {HotelService} from '.././services/hotel-service';
   imports: [
     CommonModule,
     HotelRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers:[HotelService]
 })
